@@ -1,0 +1,22 @@
+{
+	"schemaVersion": 1,
+	"id": "autofish",
+	"version": "${version}",
+	"name": "AutoFish",
+	"description": "Automatically casts, reels, and recasts your fishing rod while you AFK.",
+	"authors": ["Urahara"],
+	"contact": {},
+	"license": "CC0-1.0",
+	"environment": "client",
+	"entrypoints": {
+		"client": [
+			"com.urahara.autofish.AutoFishClient"
+		]
+	},
+	"depends": {
+		"fabricloader": ">=0.19.5",
+		"minecraft": ">=26 <27",
+		"java": ">=25",
+		"fabric-api": "*"
+	}
+}
